@@ -16,9 +16,13 @@ code {
 
 
 .px1 {
- padding-left: 1rem;
+ padding-left:1rem;
  padding-right: 1rem;
+
 }
+
+
+
 
 
 .mt2 {
@@ -46,6 +50,15 @@ background: rgb(197, 197, 197);
 border-radius: 12px;
 
 }
+
+@media screen and (max-width: 500px) {
+  .brand-logo {
+    width: 300px;
+    
+    }
+ 
+}
+
 
 .todo i {
 z-index: 2;
