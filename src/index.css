@@ -50,13 +50,20 @@ background: rgb(197, 197, 197);
 border-radius: 12px;
 
 }
+.tp1 {
+opacity: 0;
+}
 
 @media screen and (max-width: 500px) {
   .brand-logo {
     width: 300px;
-    
     }
- 
+    .tp1 {
+    cursor: pointer;
+    padding-left: 85%;
+    opacity: 2;
+    }
+  
 }
 
 

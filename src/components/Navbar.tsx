@@ -8,13 +8,15 @@ export const Navbar: React.FunctionComponent = () => (
         React + Typescript
       </a>
       <ul className="right hide-on-med-and-down">
-        <li className="list">
+        <li>
           <NavLink to="/">to do List</NavLink>
         </li>
         <li>
           <NavLink to="/about">Information</NavLink>
         </li>
       </ul>
+
+      <i className="material-icons toc tp1 ">toc</i>
     </div>
   </nav>
 );
