@@ -15,8 +15,6 @@ export const Navbar: React.FunctionComponent = () => (
           <NavLink to="/about">Information</NavLink>
         </li>
       </ul>
-
-      <i className="material-icons toc tp1 ">toc</i>
     </div>
   </nav>
 );
